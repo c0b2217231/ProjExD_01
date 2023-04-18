@@ -6,6 +6,8 @@ def main():
     screen = pg.display.set_mode((800, 600))
     clock  = pg.time.Clock()
     fonto  = pg.font.Font(None, 80)
+    kk_img = pg.image.load("ex01/fig/3.png")
+    kk_img = pg.transform.flip(kk_img, True, False)
     tmr = 0
 
     while True:
